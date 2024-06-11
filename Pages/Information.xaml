@@ -1,0 +1,19 @@
+﻿<Page x:Class="BMP2.Pages.Information"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BMP2.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="445"
+      Title="Информация">
+    <Grid Background="#C0C0C0">
+
+        <Border BorderBrush="Black" CornerRadius="0 0 80 80" Background="#3A4C62" VerticalAlignment="Top" Height="48"/>
+        <Label Foreground="#ebebeb" FontWeight="SemiBold" Content="Информация" FontSize="24" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Top"/>
+
+        <TextBlock FontWeight="SemiBold" TextWrapping="Wrap" FontSize="15" Margin="20,57,10,32" ><Run Text="Добро пожаловать в симулятор управления БМП!"/><LineBreak/><Run/><LineBreak/><Run Text="Симулятор разработан для обучения "/><Run Text="студентов основам управления боевой машины пехоты. "/><Run Text="В "/><Run Text="данной программе Вы "/><Run Text="сможете познакомиться с процессом подготовки техники к запуску, осуществить запуск и выключение "/><Run Text="двигателя"/><Run Text=", а также овладеть процедурой"/><Run Text=" его"/><Run Text=" разогрева."/><LineBreak/><LineBreak/><Run Text="Наде"/><Run Text="юсь"/><Run Text=", что "/><Run Text="программа"/><Run Text=" поможет вам освоить основы управления БМП и подготовиться к реальным сценариям использования техники. "/><LineBreak/><Run/><LineBreak/><Run Text="Успешных тренировок!"/></TextBlock>
+
+
+    </Grid>
+</Page>
